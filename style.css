@@ -1,0 +1,153 @@
+body {
+  max-width:901px;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  width: 901px;
+}
+#header-logo {
+  margin: 50px 0;
+  width: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  width: 25px;
+  margin: -1px;
+  position: relative;
+  left: 73.5%;
+  bottom: 125px;
+}
+
+nav h1 {
+  position: relative;
+  left: 46px;
+  bottom: 100px;
+  font-family: 'Yellowtail', cursive, serif;
+  font-size: 39px;
+  font-weight: bold;
+}
+
+nav h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 11px;
+  position: relative;
+  left: 48px;
+  bottom: 100px;
+}
+
+nav hr {
+  height: 12px;
+  width: 901px;
+  background-color: #888;
+  position: relative;
+  bottom: 100px;
+}
+
+main h1 {
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  padding: 0 0 5px;
+  position: relative;
+  bottom: 60px;
+}
+
+div {
+  position: relative;
+  bottom: 55px;
+}
+
+div h3 {
+  display: inline;
+  color:#888;
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+}
+
+div img {
+  position: relative;
+  left: 675px;
+}
+
+#print {
+  position: relative;
+  left: 675px;
+}
+
+main img {
+  position: relative;
+  bottom: 20px;
+}
+
+main p {
+  text-indent: 2.0em;
+  line-height: 22px;
+  font-size: 19px;
+  color: rgb(109, 94, 77);
+}
+
+#ingredients {
+  position: relative;
+  top: 35px;
+  z-index: -1;
+}
+
+main ul {
+  column-count: 2;
+  z-index: 10;
+  position: relative;
+  bottom: 230px;
+  list-style: square;
+  list-style-position: inside;
+  margin: 0 0 0 50px;
+  width: 850px;
+}
+main li {
+  font-family: 'The Girl Next Door', cursive;
+  font-weight: bold;
+  color: rgb(109, 94, 77);
+  font-size: 24px;
+  z-index: 10;
+}
+
+main hr {
+  height: 12px;
+  width: 901px;
+  background-color: #888;
+}
+
+#author {
+  position: relative;
+  top: 50px;
+}
+
+#author-name {
+  font-size: 25px;
+  color: rgb(109, 94, 77);
+  font-weight: bold;
+  position: relative;
+  left: 80px;
+  bottom: 20px;
+}
+
+#author-stuff {
+  font-size: 20px;
+  color: rgb(109, 94, 77);
+  position: relative;
+  left: 80px;
+  bottom: 20px; 
+  width: 625px;
+}
+
+button {
+  position: relative;
+  left: 730px;
+  bottom: 90px;
+  padding: 25px 50px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: rgb(185, 72, 44)
+}
